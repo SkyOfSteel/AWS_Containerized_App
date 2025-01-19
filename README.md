@@ -4,6 +4,27 @@ Deploying a Sample Containerized Web Application on AWS
 The project is to create a containerized web application using Docker and deploy it on AWS using Amazon Elastic Container Registry and Elastic Kubernetes Service. The web application will use a containerized version of a popular open-source web application and will be accessible globally through Elastic Kubernetes Service.
 ## Architecture Design
 Work in progress, to be done in Draw.io.
+## Breakdown
+
+High-level tasks:
+1. Set up an AWS account and create a new Elastic Container Registry.
+2. Create a Dockerfile to build a container image of the chosen web application and push it to the Elastic Container Registry.
+3. Create an Elastic Kubernetes Service cluster and configure it to use the Elastic Container Registry to pull container images.
+4. Deploy the containerized web application to the Elastic Kubernetes Service cluster.
+5. Use Amazon CloudFront to provide global accessibility to the web application.
+6. Implement scalability and high availability features for the web application using Elastic Kubernetes Service.
+
+Optional tasks:
+1. Use Amazon CloudWatch to monitor the performance and health of the containerized web application.
+2. Use AWS ECS to automate the deployment process and manage the container lifecycle.
+3. Use AWS Step Functions to manage and secure communication between microservices running in the containerized web application.
+
+Skills needed:
+1. Understanding of containerization and Docker.
+2. Knowledge of Kubernetes and container orchestration.
+3. Familiarity with Elastic Container Registry and Elastic Kubernetes Service.
+4. Understanding of AWS infrastructure services such as Amazon CloudFront.
+
 ## List of Required Services
 **Core:**
 
