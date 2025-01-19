@@ -11,7 +11,7 @@ High-level tasks:
 2. Create a Dockerfile to build a container image of the chosen web application and push it to the Elastic Container Registry.
 3. Create an Elastic Kubernetes Service cluster and configure it to use the Elastic Container Registry to pull container images.
 4. Deploy the containerized web application to the Elastic Kubernetes Service cluster.
-5. Use Amazon CloudFront to provide global accessibility to the web application.
+5. Use AWS Load Balancer or Amazon CloudFront to provide global accessibility to the web application.
 6. Implement scalability and high availability features for the web application using Elastic Kubernetes Service.
 
 Optional tasks:
@@ -23,7 +23,7 @@ Skills needed:
 1. Understanding of containerization and Docker.
 2. Knowledge of Kubernetes and container orchestration.
 3. Familiarity with Elastic Container Registry and Elastic Kubernetes Service.
-4. Understanding of AWS infrastructure services such as Amazon CloudFront.
+4. Understanding of AWS infrastructure services such as AWS Load Balancer and Amazon CloudFront.
 
 ## List of Required Services
 **Core:**
