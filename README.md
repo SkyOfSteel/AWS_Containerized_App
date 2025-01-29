@@ -75,3 +75,15 @@ Skills needed:
 
 ## Docker on EC2
 [Helpful video tutorial](https://www.youtube.com/watch?v=6Hj-stf51Bc&list=PLqoUmUbJ_zDHPwK-ZWATXiYrUXwWkLY65&index=1)
+
+To build a docker image:
+`sudo docker build -t test-image .`
+
+To run a docker container:
+`sudo docker run -d -p 80:80 --name test-container test-image`
+
+To view the status of running containers:
+`sudo docker ps -a`
+
+To remove a running container:
+`sudo docker rm container-name`
