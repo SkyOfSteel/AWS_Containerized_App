@@ -76,6 +76,8 @@ Skills needed:
 ## Docker on EC2
 [Helpful video tutorial](https://www.youtube.com/watch?v=6Hj-stf51Bc&list=PLqoUmUbJ_zDHPwK-ZWATXiYrUXwWkLY65&index=1)
 
+The security group associated with an EC2 should allow SSH (port 22) connections to work on the server and HTTP (port 80) connections to be able to access to the deployed web-server container via a public IP.
+
 To build a docker image:
 `sudo docker build -t test-image .`
 
@@ -86,4 +88,7 @@ To view the status of running containers:
 `sudo docker ps -a`
 
 To remove a running container:
-`sudo docker rm container-name`
+`sudo docker rm test-container`
+
+To remove an image from docker's registry:
+`sudo docker image rm test-image`
