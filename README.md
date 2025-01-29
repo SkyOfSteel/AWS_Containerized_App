@@ -72,5 +72,6 @@ Skills needed:
 - AWS Elastic File System (EFS) 
 - AWS Lambda
 </details>
+
 ## Docker on EC2
 [Helpful video tutorial](https://www.youtube.com/watch?v=6Hj-stf51Bc&list=PLqoUmUbJ_zDHPwK-ZWATXiYrUXwWkLY65&index=1)
