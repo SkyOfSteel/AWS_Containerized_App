@@ -5,7 +5,7 @@ The project is to create a containerized web application using Docker and deploy
 ## Architecture Design
 ![Containerized Web Application on AWS - EFS Version drawio(1)](https://github.com/user-attachments/assets/82367d7f-7c37-49c7-97fa-e4e654e4ba27)
 (Work in progress, continuously improved.)
-![Containerized Web Application on AWS - EFS version - Data Flow](https://github.com/user-attachments/assets/e58fb698-2aa7-4998-902a-8ba0500b9052)
+![Containerized Web Application on AWS - RDS version - Data Flow](https://github.com/user-attachments/assets/922fdfa6-ea8e-4d8b-8f3e-8e897679c448)
 (Data flow chart based on the diagram above; subject to change with the changes in the architecture.)
 ## Breakdown
 <details>
