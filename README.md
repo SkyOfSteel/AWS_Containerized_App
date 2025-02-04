@@ -31,6 +31,7 @@ Skills needed:
 
 ## List of Required Services
 <details>
+  
 **Core:**
 
 - Amazon EC2
