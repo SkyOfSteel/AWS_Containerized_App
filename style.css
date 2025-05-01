@@ -1,47 +1,83 @@
-/* General Styling for All Pages */
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base layout */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #222;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Header */
-header {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+/* Headings */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 1rem;
 }
 
-header h1 {
-    margin: 0;
+h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
 }
 
-nav ul li a {
-    color: #fff;
+/* Paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: #0066cc;
     text-decoration: none;
-    font-weight: bold;
 }
 
-nav ul li a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-/* Content Styling */
-.content {
-    max-width: 1000px;  /* Restrict content width */
-    margin: 0 auto;  /* Center align content */
-    padding: 20px;  /* Add padding around content */
+/* Lists */
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-links a {
+    font-weight: bold;
+    color: #444;
+}
+
+.nav-links a:hover {
+    color: #000;
 }
