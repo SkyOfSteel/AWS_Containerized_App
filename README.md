@@ -88,6 +88,7 @@ To avoid the **No basic auth credentials** error, we need to create a **docker**
 
 Then log out and log in for changes to take place.
 
+## Helpful Docker commands
 To build a docker image:
 `docker build -t test-image .`
 
