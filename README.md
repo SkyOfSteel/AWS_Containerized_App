@@ -81,7 +81,7 @@ Skills needed:
 
 The security group associated with an EC2 should allow SSH (port 22) connections to work on the server and HTTP (port 80) connections to be able to access to the deployed web-server container via a public IP.
 
-To avoid the "No basic auth credentials" error, we need to create a "docker" group and add "docker" user to it. This also allows to avoid typing "sudo" before every docker command. To do that:
+To avoid the **No basic auth credentials** error, we need to create a **docker** group and add a **docker** user to it. This also allows to avoid typing `sudo` before every docker command. To do that:
 
 1. $sudo groupadd docker
 2. $sudo usermod -aG docker $USER
