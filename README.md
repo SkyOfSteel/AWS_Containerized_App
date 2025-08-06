@@ -1,5 +1,5 @@
 # AWS Containerized App
-Deploying a Sample Containerized Web Application on AWS
+A quick reference on deploying a sample containerized web ppplication on AWS.
 ## Overview
 The project is to create a containerized web application using Docker and deploy it on AWS using Amazon Elastic Container Registry and Elastic Kubernetes Service. The web application will use a containerized version of a popular open-source web application and will be accessible globally through Elastic Kubernetes Service.
 ## Architecture Design
