@@ -4,7 +4,7 @@ A quick reference on deploying a sample containerized web ppplication on AWS.
 The project is to create a containerized web application using Docker and deploy it on AWS using Amazon Elastic Container Registry and Elastic Kubernetes Service. The web application will use a containerized version of a popular open-source web application and will be accessible globally through Elastic Kubernetes Service.
 ## Architecture Design
 ![Containerized Web Application on AWS - EFS Version drawio(1)](https://github.com/user-attachments/assets/82367d7f-7c37-49c7-97fa-e4e654e4ba27)
-(Work in progress, continuously improved.)
+(General idea about the architecture including the optional services.)
 ![Containerized Web Application on AWS - RDS version - Data Flow](https://github.com/user-attachments/assets/922fdfa6-ea8e-4d8b-8f3e-8e897679c448)
 (Data flow chart based on the diagram above; subject to change with the changes in the architecture.)
 ## Breakdown
