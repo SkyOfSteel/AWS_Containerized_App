@@ -9,7 +9,15 @@ The project is to create a containerized web application using Docker and deploy
 (Data flow chart based on the diagram above; subject to change with the changes in the architecture.)
 ## Breakdown
 <details>
+Skills needed:
+  
+1. Understanding of containerization and Docker.
+2. Knowledge of Kubernetes and container orchestration.
+3. Familiarity with Elastic Container Registry and Elastic Kubernetes Service.
+4. Understanding of AWS infrastructure services such as AWS Load Balancer and Amazon CloudFront.
+  
 High-level tasks:
+
 1. Set up an AWS account and create a new Elastic Container Registry.
 2. Create a Dockerfile to build a container image of the chosen web application and push it to the Elastic Container Registry.
 3. Create an Elastic Kubernetes Service cluster and configure it to use the Elastic Container Registry to pull container images.
@@ -18,15 +26,10 @@ High-level tasks:
 6. Implement scalability and high availability features for the web application using Elastic Kubernetes Service.
 
 Optional tasks:
+
 1. Use Amazon CloudWatch to monitor the performance and health of the containerized web application.
 2. Use AWS ECS to automate the deployment process and manage the container lifecycle.
 3. Use AWS Step Functions to manage and secure communication between microservices running in the containerized web application.
-
-Skills needed:
-1. Understanding of containerization and Docker.
-2. Knowledge of Kubernetes and container orchestration.
-3. Familiarity with Elastic Container Registry and Elastic Kubernetes Service.
-4. Understanding of AWS infrastructure services such as AWS Load Balancer and Amazon CloudFront.
 </details>
 
 ## List of Required Services
